@@ -1,5 +1,5 @@
 <?php
-var_dump((bool) "");
+var_dump((bool) "");//false
 
 echo "<br>";
 var_dump((bool) array());
