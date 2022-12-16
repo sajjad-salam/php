@@ -1,5 +1,4 @@
 <?php
-$help_num = 4;
 $nums = [2, 4, 5, 6, 10];
 $first_num=0;
 $last_num=4;
