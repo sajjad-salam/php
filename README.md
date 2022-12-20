@@ -7,3 +7,6 @@ studying php
 
 # order project
 <img src="img\screenshot.png">
+
+# parse_str project
+<img src="img/Screenshot3.png">
