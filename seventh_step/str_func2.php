@@ -66,7 +66,7 @@ echo "</pre> ";
 
 echo str_shuffle("sajjad") . "<br>" ;//rendomely
 
-echo strrev("sajjad") . "<br>" ;//olzere
+echo strrev("sajjad") . "<br>" ;//dajjas
 
 echo strlen(trim("   sajjad")). "<br>" ;//6
 echo strlen("   sajjad") . "<br>";//9
