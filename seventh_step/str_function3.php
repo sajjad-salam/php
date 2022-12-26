@@ -29,3 +29,5 @@ echo strip_tags("<h3>salam<b>sajjad</b></h3>","<h3></h3>");//salamsajjad but wit
 (string, $allowed_tags )
 
 */
+
+// manual

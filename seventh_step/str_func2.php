@@ -75,3 +75,4 @@ echo trim( "#sajjad###", "#"). "<br>";//sajjad
 echo rtrim( "#sajjad###", "#"). "<br>";//#sajjad
 echo ltrim( "#sajjad###", "#"). "<br>";//sajjad###
 
+// manual

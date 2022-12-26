@@ -11,3 +11,4 @@ echo "$str". "<br>";//0ajjad
 $str[6]="m";//add
 echo "$str". "<br>";//0ajjadm
 
+// manual

@@ -10,3 +10,6 @@ echo strtoupper("sajjad");//SAJJAD
 echo ucwords("Sajjad Salam");//sajjad salam
 
 echo str_repeat("sajjad",3);//sajjadsajjadsajjad
+
+
+// manual

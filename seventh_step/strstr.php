@@ -10,3 +10,5 @@ echo  stristr("0ajjad salam","S");//salam
 
 
 
+
+// manual

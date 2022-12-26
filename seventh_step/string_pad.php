@@ -15,3 +15,5 @@ echo "<br>";
 echo  str_pad(6,8,"0");//60000000
 echo "<br>";
 echo  str_pad("sajjad",8,"##");//sajjad##
+
+// manual

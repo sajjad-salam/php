@@ -23,3 +23,6 @@ var_dump(strpos("sajjad","s",-6));//0
 var_dump(strrpos("sajjad","j"));// 3
 
 var_dump(substr_count("sajjad","j",));//2
+
+
+// manual

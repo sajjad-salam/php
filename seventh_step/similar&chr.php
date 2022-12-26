@@ -16,3 +16,4 @@ echo "$s";//80
 
 echo "<br>";
 
+// manual

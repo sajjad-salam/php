@@ -34,3 +34,18 @@ function mix($n1,$n2)
 $nums=[1,5,8,7,9,20];
 
 echo array_reduce($nums,"mix");
+
+function main($n1,$n2)
+{
+    $r=0;
+    if ($n1<$n2) {
+        $r=$n1;
+    }
+    else {
+        $r=$n2;
+    }
+    return "$r";
+}
+$nums=[1,5,8,7,9,20];
+
+echo array_reduce($nums,"main");

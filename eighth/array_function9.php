@@ -42,7 +42,27 @@ Array
 */
 echo "</pre>";
 
+$nums=[1 => 3 , 6 => 1 ,3 => 2 , 4 => 8 , 5 => 4];
+function ifar($n)
+{
+    if ($n>1) {
+        return "$n";
+    }
+}
 
+echo "<pre>";
+print_r(array_map("ifarr",$nums));// on values
+/*
+Array
+(
+    [1] => 3
+    [6] => 
+    [3] => 2
+    [4] => 8
+    [5] => 4
+)
+*/
+echo "</pre>";
 $nums=[1 => 3 , 6 => 1 ,3 => 2 , 4 => 8 , 5 => 4];
 
 function ifarr($n)

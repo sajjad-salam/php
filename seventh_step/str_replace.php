@@ -12,3 +12,6 @@ echo "<br>";
 
 echo  str_ireplace("M","0","sajjadsalamm",$i);//sajjadsala00//Letters are insensitive
 echo "<br>";
+
+
+// manual
