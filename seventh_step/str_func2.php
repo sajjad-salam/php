@@ -74,5 +74,17 @@ echo strlen("   sajjad") . "<br>";//9
 echo trim( "#sajjad###", "#"). "<br>";//sajjad
 echo rtrim( "#sajjad###", "#"). "<br>";//#sajjad
 echo ltrim( "#sajjad###", "#"). "<br>";//sajjad###
+?>
+<!-- // manual -->
+<?php
+function trimm($str, $tr)
+{
+    for ($i = 0; $i < strlen($str); $i++) {
 
-// manual
+        if ($str[$i] == $tr) {
+            $str[$i] = " ";
+        }
+    }
+    return $str;
+}
+echo  trimm("###sajjad#", "#");
