@@ -14,7 +14,7 @@ echo  str_ireplace("M","0","sajjadsalamm",$i);//sajjadsala00//Letters are insens
 echo "<br>";
 
 ?>
-// manual
+<!-- // manual -->
 <?php
 function stringreplace($st_r, $rep, $strg)
 {
