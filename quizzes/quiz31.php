@@ -1,18 +1,27 @@
 <?php
-    $chars = ["A", "B", "C"];
-    $chars[]="D";
-    $chars[4]="D";
-    array_push($chars,"D");
-    
 
-    print_r($chars);
+$names = ["Osama", "Ahmed", "Sayed", "Mahmoud", "Ali"];
 
+// Write Line Here
+next($names);
+next($names);
+// Write Line Here
 
-    // Output
-    // Array
-    // (
-    // [0] => A
-    // [1] => B
-    // [2] => C
-    // [3] => D
-    // )
+echo current($names) . "<br>"; // "Sayed"
+
+// Write Line Here
+end($names);
+
+echo current($names) . "<br>"; // "Ali"
+
+// Write Line Here
+reset($names);
+
+echo current($names) . "<br>"; // "Osama"
+
+// Write Line Here
+end($names);
+prev($names);
+// Write Line Here
+
+echo current($names) . "<br>"; // "Mahmoud"
