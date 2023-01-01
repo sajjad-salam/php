@@ -1,4 +1,4 @@
 <?php
-    
-    $s=file("https://www.timeanddate.com/weather/iraq/baghdad");
-    echo $s[218];
+
+$handel=file("https://www.timeanddate.com/weather/iraq/baghdad");
+echo $handel[218];
